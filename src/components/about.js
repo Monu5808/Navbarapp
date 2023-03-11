@@ -1,16 +1,9 @@
 import React from 'react'
-import logo from '../images/logo.svg';
-import "./Navbar.css";
- 
 
-
-const Navbar = () => {
+const about = () => {
   return (
-    
-
+    <div>
       
-  
-   <div> 
 	<header>
 		<h1>My Website</h1>
 		<nav>
@@ -22,21 +15,12 @@ const Navbar = () => {
 		</nav>
 	</header>
 	<main>
-		<h2>Welcome to My Website</h2>
+		<h2>About Us</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo quam quis justo maximus, ut consectetur lacus tincidunt. Morbi ultricies auctor quam, ut tincidunt velit semper id. Donec congue purus mauris, vel malesuada enim mollis nec. Sed a vestibulum mi. Sed tincidunt sit amet magna et blandit. Duis quis interdum arcu. Aliquam quis velit vel elit ullamcorper consectetur.</p>
-		<p>Nunc in libero nibh. Proin elementum congue erat ut maximus. Fusce bibendum metus sit amet erat dictum eleifend. Etiam sed tempor dolor. Integer non massa sed nisi dictum tempor at id velit. Donec eget tellus eu dolor vestibulum viverra in eget lorem. Pellentesque a felis ac nulla iaculis convallis. Donec fermentum blandit diam, eget gravida est fermentum quis.</p>
-	</main>
-	<footer>
-		<p>Copyright © My Website 2022</p>
-	</footer>
-
-
-
-  </div>
-
-    
-
+		<p>Nunc in libero nibh. Proin elementum congue erat ut maximus. Fusce bibendum metus sit amet erat dictum eleif</p>
+    </main>
+    </div>
   )
 }
 
-export default Navbar
+export default about
